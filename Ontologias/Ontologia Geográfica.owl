@@ -40,6 +40,9 @@
         <ObjectProperty IRI="#Part-of"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#Type-of"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isAStateRegion"/>
     </Declaration>
     <Declaration>
@@ -107,6 +110,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mato_Grosso_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Minas_Gerais"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Nordeste"/>
@@ -209,6 +215,18 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Continente"/>
+        <NamedIndividual IRI="#AméricaCentral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continente"/>
+        <NamedIndividual IRI="#AméricaDoNorte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continente"/>
+        <NamedIndividual IRI="#AméricaDoSul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continente"/>
         <NamedIndividual IRI="#Antártida"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -262,6 +280,10 @@
     <ClassAssertion>
         <Class IRI="#Estado"/>
         <NamedIndividual IRI="#Mato_Grosso_do_Sul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estado"/>
+        <NamedIndividual IRI="#Minas_Gerais"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Região"/>
@@ -378,6 +400,7 @@
         <NamedIndividual IRI="#Maranhão"/>
         <NamedIndividual IRI="#Mato_Grosso"/>
         <NamedIndividual IRI="#Mato_Grosso_do_Sul"/>
+        <NamedIndividual IRI="#Minas_Gerais"/>
         <NamedIndividual IRI="#Nordeste"/>
         <NamedIndividual IRI="#Norte"/>
         <NamedIndividual IRI="#Pacífico"/>
@@ -408,9 +431,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Acre"/>
+        <NamedIndividual IRI="#Norte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Alagoas"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Alagoas"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -418,9 +451,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Amapá"/>
+        <NamedIndividual IRI="#Norte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Amazonas"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Amazonas"/>
+        <NamedIndividual IRI="#Norte"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -458,6 +501,11 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Ceará"/>
+        <NamedIndividual IRI="#Nordeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Centro-Oeste"/>
         <NamedIndividual IRI="#Brasil"/>
@@ -468,9 +516,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Destrito_Federal"/>
+        <NamedIndividual IRI="#Centro-Oeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Espirito_Santo"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Espirito_Santo"/>
+        <NamedIndividual IRI="#Sudeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -478,9 +536,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Goiais"/>
+        <NamedIndividual IRI="#Centro-Oeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Maranhão"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Maranhão"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -488,9 +556,29 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Mato_Grosso"/>
+        <NamedIndividual IRI="#Centro-Oeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Mato_Grosso_do_Sul"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Mato_Grosso_do_Sul"/>
+        <NamedIndividual IRI="#Centro-Oeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part-of"/>
+        <NamedIndividual IRI="#Minas_Gerais"/>
+        <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Minas_Gerais"/>
+        <NamedIndividual IRI="#Sudeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -508,9 +596,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Paraná"/>
+        <NamedIndividual IRI="#Sul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Paraíba"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Paraíba"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -518,9 +616,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Pará"/>
+        <NamedIndividual IRI="#Norte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Pernambuco"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -528,9 +636,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Piauí"/>
+        <NamedIndividual IRI="#Nordeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Rio_Grande_do_Norte"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Rio_Grande_do_Norte"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -538,9 +656,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Rio_Grande_do_Sul"/>
+        <NamedIndividual IRI="#Sul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Rio_de_Janeiro"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Rio_de_Janeiro"/>
+        <NamedIndividual IRI="#Sudeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -548,9 +676,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Rondônia"/>
+        <NamedIndividual IRI="#Norte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Roraima"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Roraima"/>
+        <NamedIndividual IRI="#Norte"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -558,9 +696,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Santa_Catarina"/>
+        <NamedIndividual IRI="#Sul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Sergipe"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Sergipe"/>
+        <NamedIndividual IRI="#Nordeste"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
@@ -578,9 +726,19 @@
         <NamedIndividual IRI="#Brasil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#São_Paulo"/>
+        <NamedIndividual IRI="#Sudeste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Part-of"/>
         <NamedIndividual IRI="#Tocantins"/>
         <NamedIndividual IRI="#Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAStateRegion"/>
+        <NamedIndividual IRI="#Tocantins"/>
+        <NamedIndividual IRI="#Norte"/>
     </ObjectPropertyAssertion>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#Part-of"/>
@@ -592,14 +750,14 @@
         <ObjectProperty IRI="#isAStateRegion"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isAStateRegion"/>
-            <Class IRI="#Estado"/>
+            <Class IRI="#Região"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isAStateRegion"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#isAStateRegion"/>
-            <Class IRI="#Região"/>
+            <Class IRI="#Estado"/>
         </ObjectExactCardinality>
     </ObjectPropertyRange>
 </Ontology>
