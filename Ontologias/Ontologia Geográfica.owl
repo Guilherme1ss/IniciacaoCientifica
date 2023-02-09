@@ -193,6 +193,27 @@
             <Class IRI="#País"/>
         </ObjectExactCardinality>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Part-of"/>
+            <Class IRI="#Planeta_Terra"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#País"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Part-of"/>
+            <Class IRI="#Continente"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Região"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Part-of"/>
+            <Class IRI="#País"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Estado"/>
         <NamedIndividual IRI="#Acre"/>
